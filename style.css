@@ -43,6 +43,10 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+  
+}
+#color{
+  color: red
 }
 
 a {
@@ -173,7 +177,9 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  /* margin: auto 0; */
+  border-radius:400px;
+ 
 }
 
 .section__text {
