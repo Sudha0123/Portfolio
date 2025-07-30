@@ -1,8 +1,18 @@
 @media screen and (max-width: 1400px) {
-  #profile {
+  /* #profile {
     height: 83vh;
     margin-bottom: 6rem;
-  }
+  } */
+ #profile .section__pic-container img {
+  width: 280px;
+  height: auto;
+  border-radius: 20px; /* smooth rounded corners, not circle */
+ 
+  object-fit: cover;
+  border: 3px solid #e1e1e1; /* light border */
+}
+
+
   .about-containers {
     flex-wrap: wrap;
   }
